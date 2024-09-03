@@ -1,0 +1,4 @@
+
+select language, count(*) as area_count
+from jess.table1
+group by language
